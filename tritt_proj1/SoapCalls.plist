@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>QueryCityState_v3_0</key>
+	<string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;soap:Envelope xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soap:Body&gt;&lt;QueryCityState_v3_0 xmlns=&quot;http://tempuri.org/&quot;&gt;&lt;srcCity&gt;%@&lt;/srcCity&gt;&lt;srcState&gt;%@&lt;/srcState&gt;&lt;originRadius&gt;%i&lt;/originRadius&gt;&lt;destRadius&gt;%i&lt;/destRadius&gt;&lt;trailerType&gt;%@&lt;/trailerType&gt;&lt;loadDate&gt;%@&lt;/loadDate&gt;&lt;destCity&gt;%@&lt;/destCity&gt;&lt;destState&gt;%@&lt;/destState&gt;&lt;clientKey&gt;%@&lt;/clientKey&gt;&lt;device&gt;%@&lt;/device&gt;&lt;/QueryCityState_v3_0&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</string>
+	<key>password</key>
+	<string>dbcarrier</string>
+	<key>userName</key>
+	<string>dbcarrier</string>
+	<key>soap_action</key>
+	<string>http://tempuri.org/</string>
+	<key>GetCities</key>
+	<string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;soap:Envelope xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;soap:Body&gt;&lt;GetCities xmlns=&quot;http://tempuri.org/&quot;&gt;&lt;city&gt;%@&lt;/city&gt;&lt;/GetCities&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</string>
+	<key>baseSOAPURL</key>
+	<string>http://testmobileapps.tql.com/freightlocator/freightlocatormethods.asmx</string>
+</dict>
+</plist>
